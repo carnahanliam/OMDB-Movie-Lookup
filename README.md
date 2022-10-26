@@ -2,6 +2,10 @@
 
 Lookup movies using the OMDB API. Get a free API key from https://www.omdbapi.com/apikey.aspx.
 
+
+https://user-images.githubusercontent.com/66342321/198128082-c9c060b2-ea6a-4b9b-848b-ee2b35826733.mp4
+
+
 ## Available Scripts
 
 In the project directory, you can run:
