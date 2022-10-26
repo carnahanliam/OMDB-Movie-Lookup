@@ -9,17 +9,19 @@ const FooterWrapper = ({ children }) => {
         minHeight: '100vh',
       }}
     >
-      {children}
+      <Container component="main" sx={{ mt: 8, mb: 2 }}>
+        {children}
+      </Container>
       <Box
         component="footer"
         sx={{
           py: 3,
           px: 2,
-          m: 'auto -25px 0 -25px',
+          mt: 'auto',
           backgroundColor: '#c3c3c3',
         }}
       >
-        <Container maxWidth="sm">
+        <Container>
           <Typography variant="body1" align="center">
             Liam Carnahan
           </Typography>
