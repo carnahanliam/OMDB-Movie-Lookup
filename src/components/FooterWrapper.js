@@ -9,7 +9,11 @@ const FooterWrapper = ({ children }) => {
         minHeight: '100vh',
       }}
     >
-      <Container component="main" sx={{ mt: 8, mb: 2 }}>
+      <Container
+        component="main"
+        maxWidth={false}
+        sx={{ mt: 8, mb: 2, maxWidth: 1300 }}
+      >
         {children}
       </Container>
       <Box
